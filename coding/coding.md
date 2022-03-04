@@ -1,4 +1,4 @@
-# Zone Printer demo application
+# Zone Display demo application
 
 This web application prints the Google Cloud datacenter it’s running on with
 information about where the datacenter is located (city, country and flag).
