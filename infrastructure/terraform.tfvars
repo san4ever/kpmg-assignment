@@ -86,8 +86,8 @@ machine_type_test = "n1-standard-1"
 name    = "test-firewall"
 network = "vpc-network"
 
-ports    = ["80"]
-source_tags =["zone-server"]
+ports       = ["80"]
+source_tags = ["zone-server"]
 
 
 
