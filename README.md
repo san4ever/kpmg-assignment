@@ -4,4 +4,6 @@
 
 ## Contents
  - [coding](https://github.com/san4ever/kpmg-assignment/blob/main/coding/coding.md)
+ - [infrastructure](https://github.com/san4ever/kpmg-assignment/blob/main/infrastructure/infra.md)
+ - [automation](https://github.com/san4ever/kpmg-assignment/blob/main/automation/automation.md)
    
