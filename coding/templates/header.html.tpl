@@ -8,7 +8,7 @@
         {{ with .title }}
             {{.}}
         {{ else }}
-            Welcome from {{with .region_code}}{{.}}{{else}}Google Cloud{{end}}!
+            Hello !! from {{with .region_code}}{{.}}{{else}}Google Cloud{{end}}!
         {{end}}
     </title>
     <style>
