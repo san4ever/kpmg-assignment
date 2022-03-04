@@ -16,25 +16,3 @@ Example:
 > You are now connected to "us-west1"
 > ```
 
-## Deploy to Cloud Run
-
-Clone this application, then build and deploy the image:
-
-```sh
-gcloud beta run deploy zone-printer \
-        --platform=managed --allow-unauthenticated \
-        --source=.
-```
-
-Follow the [Serving traffic from multiple
-regions](https://cloud.google.com/run/docs/multiple-regions) tutorial from
-Cloud Run documentation to see how you can deploy this application to all
-regions and set up a load balancer on top.
-
-If you want to automate further, check out [this Terraform
-guide](https://github.com/ahmetb/cloud-run-multi-region-terraform/) for
-achieving the same task.
-
------
-
-This is not an official Google project.
